@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UWDS Admission Portal</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #3d0af3;
+		}
+		.container {
+			width: 80%;
+			margin: 40px auto;
+			background-color: #3d0af3;
+			padding: 20px;
+			border: 1px solid #3d0af3;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		.header {
+			background-color: #fac004;
+			color: #3d0af3;
+			padding: 10px;
+			text-align: center;
+		}
+		.form-container {
+			margin-top: 20px;
+		}
+		.form-group {
+			margin-bottom: 20px;
+		}
+		.form-group label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		.form-group input[type="text"], .form-group input[type="email"], .form-group input[type="password"] {
+			width: 100%;
+			height: 40px;
+			margin-bottom: 20px;
+			padding: 10px;
+			border: 1px solid #3d0af3;
+		}
+		.form-group input[type="submit"] {
+			background-color: #fffb04;
+			color: #3d0af3;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.form-group input[type="submit"]:hover {
+			background-color: #7e4646;
+		}
+	</style>
+	<link rel="stylesheet" href="all.css">
+</head>
+<body background="ali.jpeg">
+
+	<header>
+        <nav>
+				<ul>
+			<li><img src="UWDS.jfif" align="left" alt="Logo" width="70" height="50" ></li> 
+             
+			<center>
+				<li><a href="UNIVER.HTML"> HOME</a></li>
+				<li><a href="AboutUs.html">About Us</a> </li>
+					<li><a href="admission.html">Admission</a> </li>
+						<li><a href="LLOGIN.HTML">Lecture Portal</a> </li>
+							<li><a href="login.html">Student Portal</a>  </li>
+								<li><a href="Staff">Non-Teaching Staff Portal</a> </li>
+			
+			</center>
+	
+            </ul>
+        </nav>
+    </header>
+	<div class="container">
+		<div class="header">
+            <button></button>
+			<h2>UNIVERSITY OF WEBSITE DEVELOPMENT STUDIES. Admission Portal (UWDS)</h2>
+		</div>
+		<div class="form-container">
+			<h3>Register Here</h3>
+			<form>
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email">
+				</div>
+				<div class="form-group">
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password">
+				</div>
+				<div class="form-group">
+					<label for="confirm-password">Confirm Password:</label>
+					<input type="password" id="confirm-password" name="confirm-password">
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Register">
+				</div>
+			</form>
+		</div>
+		<div class="form-container">
+			<h3>Login Here</h3>
+			<form>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email">
+				</div>
+				<div class="form-group">
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password">
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Login">
+				</div>
+				<p>Forgot Password? <a href="#">Reset Here</a></p>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

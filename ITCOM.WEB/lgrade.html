@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UWDS Lecturer Portal - Grade</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		.container {
+			width: 800px;
+			margin: 50px auto;
+			background-color: #fff;
+			padding: 20px;
+			border: 1px solid #ddd;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		.navbar {
+			background-color: #333;
+			padding: 10px;
+			text-align: center;
+		}
+		.navbar ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+		}
+		.navbar li {
+			margin-right: 20px;
+		}
+		.navbar a {
+			color: #fff;
+			text-decoration: none;
+		}
+		.content {
+			margin-top: 20px;
+		}
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th, td {
+			border: 1px solid #ddd;
+			padding: 10px;
+			text-align: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h2>UWDS Lecturer Portal - Grade</h2>
+		</div>
+		<div class="navbar">
+			<ul>
+				<li><a href="lhome.html">Home</a></li>
+				<li><a href="lcourse.html">Course</a></li>
+				<li><a href="lstudent.html">Students</a></li>
+				<li><a href="lprofile.html">Profile</a></li>
+				<li><a href="llogout.html">Logout</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<h3>Grade</h3>
+			<form>
+				<label for="course">Select Course:</label>
+				<select id="course" name="course">
+					<option value="CSE101">CSE101 - Introduction to Web Engineering</option>
+					<option value="CSE102">CSE102 - Programming Fundamentals</option>
+					<option value="CSE103">CSE103 - Data Structures and Algorithms</option>
+				</select>
+				<br><br>
+				<label for="student">Select Student:</label>
+				<select id="student" name="student">
+					<option value="Ali">Ali Abbas Shaban</option>
+					<option value="Ishaq">Ishaq Dauda</option>
+					<option value="Aminatu">Aminatu Abdullah</option>
+				</select>
+				<br><br>
+				<label for="grade">Enter Grade:</label>
+				<input type="text" id="grade" name="grade">
+				<br><br>
+				<button>Submit</button>
+			</form>
+			<table>
+				<tr>
+					<th>Course</th>
+					<th>Student</th>
+					<th>Grade</th>
+				</tr>
+				<tr>
+					<td>CSE101</td>
+					<td>Ali Abbas Shaban</td>
+					<td>A+</td>
+				</tr>
+				<tr>
+					<td>CSE102</td>
+					<td>Ishaq Dauda</td>
+					<td>B+</td>
+				</tr>
+				<tr>
+					<td>CSE103</td>
+					<td>Aminatu Abdullah</td>
+					<td>B+</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
+

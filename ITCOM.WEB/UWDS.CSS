@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('paper.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  } 
+
+
+header {
+    background: #47443b;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0px 0;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    
+    display: inline;
+    margin-right: 5px;
+}
+
+nav ul li a {
+    
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fac105;
+}
+.hero {
+    
+   
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    color: #74af07;
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+.search-bar form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="search"] {
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border: 3px dotted rgb(4, 218, 247);
+    border-radius: 2px 0 0 2px;
+  }
+  
+  .search-bar button[type="submit"] {
+    background: #ffc107;
+    color: #35424a;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 70px;
+    
+  }
+
+
+  .search-bar button:hover {
+    background: #e0a800;
+    color: #ffffff;
+}
+  
+   
+

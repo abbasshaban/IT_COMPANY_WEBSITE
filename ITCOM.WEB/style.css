@@ -1,0 +1,9 @@
+.hero {
+    height: 20vh;
+    display: flex;
+    align-items:left;
+    color: #ec0a7b;
+}
+.hero h1 {
+    font-size: 70px;
+}
